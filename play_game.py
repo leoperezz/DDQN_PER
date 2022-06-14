@@ -18,7 +18,7 @@ def main():
     batch_size=32
     epsilon=0.5
     network=DQN(obs_shape,n_actions,lr,tao,epsilon,batch_size)
-    root='Cart_Pole_PER.h5' #name of the model
+    root='LunaLander_PER_boltzman.h5' #name of the model
     network.Q_network=load_model(root)
 
     num_episodes=100
