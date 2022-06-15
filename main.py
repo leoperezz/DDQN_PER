@@ -80,7 +80,7 @@ def main():
             
             if d:
                 break
-            o_=o
+            o=o_
             idx+=1
             
 
