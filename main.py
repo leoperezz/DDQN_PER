@@ -80,7 +80,9 @@ def main():
             
             if d:
                 break
+            o_=o
             idx+=1
+            
 
     print(buffer.sum_tree._value)       
 
